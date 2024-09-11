@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: local("eUkraineBold"), url("./fonts/e-Ukraine-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Light";
+  src: local("eUkraineLight"), url("./fonts/e-Ukraine-Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("eUkraineMedium"),
+    url("./fonts/e-Ukraine-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: local("eUkraineRegular"),
+    url("./fonts/e-Ukraine-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Thin";
+  src: local("eUkraineThin"), url("./fonts/e-Ukraine-Thin.otf") format("otf");
+}
+
+@font-face {
+  font-family: "UltraLight";
+  src: local("eUkraineUltraLight"),
+    url("./fonts/e-Ukraine-UltraLight.otf") format("otf");
+}
+
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e62c7;
+}
+
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}

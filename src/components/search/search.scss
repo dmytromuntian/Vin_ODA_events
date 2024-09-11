@@ -1,0 +1,32 @@
+.input-group {
+  width: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.has-search .form-control {
+  border-radius: 0 4px 4px 0;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  left: 0;
+}
+
+.input-group-append .btn {
+  border-radius: 0 4px 4px 0;
+} 
+
+@media (max-width: 767px) {
+  .has-search .form-control-feedback {
+    line-height: 2.375rem;
+  }
+}
